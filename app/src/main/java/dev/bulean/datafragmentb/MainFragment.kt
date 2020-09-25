@@ -15,6 +15,7 @@ class MainFragment : Fragment() {
                               savedInstanceState: Bundle?): View? {
         val binding = DataBindingUtil.inflate<FragmentMainBinding>(
                 inflater, R.layout.fragment_main, container, false)
+
         binding.bEnter.setOnClickListener { view : View ->
             val itemSelected: Int = binding.radioGroup.checkedRadioButtonId
             if(-1 != itemSelected){
