@@ -6,7 +6,7 @@
 
     <data>
         <variable
-            name="mainf"
+            name="mainn"
             type="dev.bulean.datafragmentb.MainActivity" />
     </data>
 
